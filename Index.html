@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8">
+<head><title>Conversión</title></head>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+    body {
+background: ;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.55);
+
+}  
+    
+</style>
+<body background="piña.jpg">
+    <h1 style="font-family: 'Orbitron', sans-serif; color: #F5F4A8;" align="center" ><b>Repaso PHP</b></h1>
+<div class="card-group" style="width: auto; margin: 3rem 20rem ;">
+<section>
+    <div class="card border-primary mb-3" style="max-width: 25rem;">
+  <div class="card-header text-center">Ejercicio 1</div>
+  <div class="card-body text-primary text-center">
+    <h5 class="card-title">Conversor de moneda</h5>
+    <form action="Act2.php" method="post" class="card-text">
+   <br><label>Ingrese la cantidad:</label> 
+    <input type="text" name="cantidad"><br>
+    
+    <label>Seleccione el valor inicial:</label>
+    <select name="valor1" class="control">
+			<option value="a">pesos</option>
+			<option value="b">dolares</option>
+			<option value="c">euros</option>
+		</select><br>
+    <label>Seleccione a qué quiere cambiar:</label>		
+<select name="valor2" class="control">
+			<option value="d">pesos</option>
+			<option value="e">dolares</option>
+			<option value="f">euros</option>
+		</select><br>
+		<input type="submit" value="Calcular">     
+</form>  
+  </div>
+</div>   
+ </section>
+
+<section>
+    
+        <div class="card border-warning mb-3" style="max-width: 25rem; margin: auto 3rem ;">
+  <div class="card-header text-center">Ejercicio 2</div>
+  <div class="card-body text-warning text-center">
+    <h5 class="card-title text-center">Días</h5>
+    <form action="act3.php" method="POST">
+        <br>Mostrar numeros de días: <br>
+    <input type=submit value="Mostrar">
+ </form>
+ <br>
+  </div>
+</div>
+
+ </section>
+</div>
+
+<div class="card-group" style="width: auto; margin: 3rem 20rem ;">
+    <section>
+        <div class="card border-danger mb-3" style="max-width: 25rem;">
+  <div class="card-header text-center">Ejercicio 3</div>
+  <div class="card-body text-danger text-center">
+    <h5 class="card-title">Área de un triángulo</h5>
+<form action="Act1.php" method="POST">
+<br>Introduzca el valor de la base del triángulo: <br>
+  <input type="text" size=8 name="base"> <br>
+Introduzca el valor de la altura del triángulo: <br>
+  <input type="text" size=12 name="altura"> <br> <br>
+    <input type=submit value="Resolver">
+ </form>
+ <br>
+  </div>
+</div>
+ </section>
+    
+    <section>
+        <div class="card border-success mb-3" style="max-width: 25rem; margin: auto 3rem ;">
+  <div class="card-header text-center">Ejercicio 4</div>
+  <div class="card-body text-success text-center">
+    <h5 class="card-title">Tablas de multiplicar</h5>
+   <form action="act4.php" method="POST">
+    <br>Introduzca un número: <br>
+  <input type="text" size=8 name="num"> <br>
+<br>Mostrar tablass de multiplicar: <br>
+    <input type=submit value="Mostrar">
+ </form>
+  </div>
+</div>
+
+ </section>
+</div>
+    
+</body>
+</html>
